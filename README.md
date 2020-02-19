@@ -7,10 +7,6 @@ Lets get Started.
 Step 1: Enable your SSH Mode in you Raspberry Pi.
 
 
-Step 2: Now Enable Ad-Hoc mode in your Pi.
+Step 2: Now Enable Ad-Hoc mode in your Pi.  Refer MANET Ad-Hoc
 
-Refer MANET Ad-Hoc
-
-Step 3 : Setup a DHCP Server to auto assign IP for the Connecting Devices
-
-Refer MANET DHCP
+Step 3 : Setup a DHCP Server to auto assign IP for the Connecting Devices Refer MANET DHCP
