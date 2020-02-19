@@ -1,0 +1,25 @@
+import socket
+import os
+
+host = '192.168.1.1'
+port = 5005
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((host, port))
+s.listen(1)
+conn, addr = s.accept()
+
+f = os.popen('arp -a')
+now = f.read()
+print ("***Device connected in network***", now)
+print ("Connection from", addr)
+
+while 1:
+	data = conn.recv(1024)
+	if not data: break
+	print("Recivied:"+(data))
+	response = raw_input("Reply: ")
+	if response == "exit":
+		break
+	conn.sendall(response)
+conn.close()
