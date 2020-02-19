@@ -1,4 +1,4 @@
-# Message-Transreciving-using-Mobile-Ad-Hoc-Network-MANET-
+# Message-Transreciving-using-Mobile-Ad-Hoc-Network and Raspberry Pi
 
 This project is visioned to provide a backup radio tower when all fails during any natural disaster where it can be used to communicate with people remotely using this network.
 
