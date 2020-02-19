@@ -18,3 +18,6 @@ Step 5 : Now Execute the TCP Host program in the Pi.
 Step 6 : Now Execute the TCP Client program in the Mobile. Important : Ad-Hoc Mode supports only on Apple Devices.
 
 That's it.
+
+Videos and Images:
+https://drive.google.com/drive/folders/1lDTiMvnHJEOEUmceaK-NftBUQ3DZz931?usp=sharing
