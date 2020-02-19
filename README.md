@@ -13,20 +13,21 @@ sudo nano /etc/network/interfaces
 
 auto lo
 
-iface lo inet loopback
+ iface lo inet loopback
 
-iface eth0 inet dhcp
+ iface eth0 inet dhcp
  
+
 auto wlan0
 
 iface wlan0 inet static
 
-  address 192.168.1.1
+   address 192.168.1.1
   
-  netmask 255.255.255.0
+   netmask 255.255.255.0
   
-  wireless-channel 1
+   wireless-channel 1
   
-  wireless-essid MANET
+   wireless-essid MANET
   
-  wireless-mode ad-hoc
+   wireless-mode ad-hoc
