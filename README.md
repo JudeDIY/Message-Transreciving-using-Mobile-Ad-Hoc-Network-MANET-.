@@ -12,13 +12,21 @@ Step 2: Now Enable Ad-Hoc mode in your Pi.
 sudo nano /etc/network/interfaces
 
 auto lo
+
 iface lo inet loopback
+
 iface eth0 inet dhcp
  
 auto wlan0
+
 iface wlan0 inet static
+
   address 192.168.1.1
+  
   netmask 255.255.255.0
+  
   wireless-channel 1
-  wireless-essid RPiAdHocNetwork
+  
+  wireless-essid MANET
+  
   wireless-mode ad-hoc
